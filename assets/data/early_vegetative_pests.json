@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Rice Caseworm",
+        "desc": "Rice Caseworms or case bearers cut off leaf tips to make leaf cases. Their feeding damage can cut leaves at right angles as with a pair of scissors. \n\nThe insect is most likely to be found in rice fields with standing water, in both wetland and irrigated environments. Transplanting young seedlings also favors the development of the insect. \n\nThe insect is most likely to be found in rice fields with standing water, in both wetland and irrigated environments. Transplanting young seedlings also favors the development of the insect. \n\nThe adults are nocturnal and are attracted to light traps. The larva hides in its case then float on the water surface during the day and crawls to the rice plant with its case to feed. \n\nSevere infestation may be observed occasionally on dwarf, compact, heavy tillering, and high yielding varieties during the rainy season. \n\nDamage symptoms can be confused with other defoliating insect pests. To confirm caseworm, visually inspect for appearance of the ladder-like leaf tissues, cut leaves, and leaf cases attached onto leaf sheaths and floating in the water with the larvae enclosed. \n\nThe rice caseworm is commonly found in rice fields in low populations. It can build up and cause patches of severe defoliation that results in stunted growth and death of plants because of pesticide use, control practices, and ecological disruptions by weather. \n\nThe rice plants can recover from the damage if there are no other defoliators present. However, maturity may be delayed for 7−10 days.",
+        "image": "rice_caseworm.jpg"
+    },
+    {
+        "name": "Green Hairy Caterpillar",
+        "desc": "R. atimeta is found only in lowland rice. It is more abundant in the rainy season.\n\nGreen hairy caterpillar incidence is normally low. Its damage potential is moderate because plants can readily recover from defoliation at the vegetative stage. However, Listinger et al. (2005) described R. atimeta is a serious defoliator of rice in the Philippines.\n\nStudies on the effects of feeding by R. atimeta on yield loss showed that the percentage defoliation and yield losses were higher in plots that were caged until harvest than on plots where cages were removed 30 days after infestation. The differences were probably due to the action of natural enemies on the uncaged plots (Viajante and Heinrichs, 1987).z",
+        "image": "green_hairy_caterpillar.jpg"
+    },
+    {
+        "name": "Green Semilooper",
+        "desc": "Green semiloopers are found in wetland environments. They are abundant during the rainy season. The adult moths hide at the base of the plants in rice fields or in grassy areas during daytime and are active at night. Prior to pupation, the older larvae fold a rice leaf and secure it with silk to form a pupal chamber.",
+        "image": "green_semilooper.jpg"
+    },
+    {
+        "name": "Rice Whorl Maggot",
+        "desc": "The rice whorl maggot is semi-aquatic. It is common in irrigated fields and feeds on the central whorl leaf of the vegetative stage of the rice plant. It does not occur in upland rice. It also prefers ponds, streams and lakes or places with abundant calm water and lush vegetati",
+        "image": "rice_whorl_maggot.jpg"
+    },
+    {
+        "name": "Rice Seedling Maggot",
+        "desc": "The feeding damage of whorl maggots causes yellow spots, white or transparent patches, and pinholes.\n\nThe larva uses its hardened mouth hooks to rasp the tissues of unopened leaves or the growing points of the developing leaves. The damage becomes visible when the leaves grow old. Mature larva prefers to feed on the developing leaves of the new developing tillers at the base of the rice plant.",
+        "image": "rice_seedling_maggot.jpg"
+    },
+    {
+        "name": "Asian Rice Gall Midge",
+        "desc": "Orseolia oryzae, also called the Asian rice gall midge, is a species of small fly in the family Cecidomyiidae. It is a major insect pest of rice. [3][4][5] The damage to the crop is done by the larvae which form galls commonly known as &quot;silver shoots&quot; or &quot;onion shoots&quot;. The rice plant is stunted and the seed heads fail to develop.",
+        "image": "asian_rice_gall_midge.jpg"
+    },
+    {
+        "name": "Leaf Miners",
+        "desc": "A leaf miner is any one of numerous species of insects in which the larval stage lives in, and eats, the leaf tissue of plants. The vast majority of leaf-mining insects are moths (Lepidoptera), sawflies ( Symphyta , the mother clade of wasps), and flies ( Diptera ), though some beetles also exhibit this behavior. Like woodboring beetles, leaf miners are protected from many predators and plant defenses by feeding within the tissues of the leaves, selectively eating only the layers that have the least amount of cellulose. When attacking Quercus robur (English oak), they also selectively feed on tissues containing lower levels of tannin, a deterrent chemical produced in great abundance by the tree.",
+        "image": "leaf_miner.jpg"
+    },
+    {
+        "name": "Flea Beetles",
+        "desc": "The flea beetle is a small, jumping beetle of the leaf beetle family (Chrysomelidae), that makes up the tribe Alticini which is part of the subfamily Galerucinae. Historically the flea beetles were classified as their own subfamily. Though most tribes of the Galerucinae are suspect of rampant paraphyly in the present delimitation, the Alticini seem to form a good clade",
+        "image": "flea_beetles.jpg"
+    },
+    {
+        "name": "Grass Webworm",
+        "desc": "Grass webworm any of numerous small grubs that are the larvae of grass moths and that spin webs around the base and roots of the grasses on which they feed.",
+        "image": "grass_webworm.jpg"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Yellow stem borer",
+        "desc": "    Yellow stem borer  The yellow stem borer is a pest of deepwater rice. It is found in aquatic environments where there is continuous flooding. Second instar larvae enclose themselves in body leaf wrappings to make tubes and detach themselves from the leaf and falls onto the water surface. They attach themselves to the tiller and bore into the stem. ",
+        "image": "yellow_stem_borer.jpg"
+    },
+    {
+        "name": "White stem borer",
+        "desc": "    White stem borer  White stemborer is an important pest in rainfed wetland rice. It can cause outbreaks and destroy rice fields. Striped stemborer is one of the most important insect pests in Asia. Its damage can be as high as 100% when severe. ",
+        "image": "white_stem_borer.jpg"
+    },
+    {
+        "name": "Striped stem borer",
+        "desc": "    Striped stem borer  This is one of the most important pests of rice in East Asia, India and Indonesia. In East Asia, C. suppressalis occurs together withChilo hyrax and Chilo christophi. This pest was probably introduced in Spain and Hawaii by humans (Bleszynski, 1970). It is now also present in the Northern Territory of Australia. The species tolerates low to very low temperatures and is therefore present in temperate and subtropical Asia. This low temperature tolerance enables it to adapt to other regions. The fact that C. suppressalishas become established in France, Spain and Portugal indicates the potential for long-distance movements and there would seem to be a real danger that it could be introduced into Africa, or other ecologically favourable areas.",
+        "image": "striped_stem_borer.jpg"
+    },
+    {
+        "name": "Gold-fringed stem borer",
+        "desc": "    Gold-fringed stem borer  Striped stemborer is one of the most important insect pests in Asia. Its damage can be as high as 100% when severe. Gold-fringed stemborer can cause yield loss of about 30%. ",
+        "image": "gold_fringed_stem_borer.jpg"
+    },
+    {
+        "name": "Dark-headed stem borer",
+        "desc": "    Dark-headed stem borer  Dark-headed stem borer (Chilo polychysus) . The egg is flat, scale-like and is not covered with hairs. The freshly deposited egg mass is white and is found near the base of the leaves and leaf sheaths. Larvae are grayish-white in color, have five longitudinal stripes of grayish-violet or purplish-brown and with large black heads. The adults are brownish-yellow in color. ",
+        "image": "dark_headed_stem_borer.jpg"
+    },
+    {
+        "name": "Pink stem borer",
+        "desc": "    Pink stem borer  Sesamia inferens, the Asiatic pink stem borer, gramineous stem borer, pink borer, pink rice borer, pink rice stem borer, pink stem borer, purple borer,purple stem borer or purplish stem borer, is a moth of the family Noctuidae. The species was first described by Francis Walker in 1856. It is found from Pakistan,India, Sri Lanka, Myanmar to Japan and the Solomon Islands.[2] A polyphagous species, it is a major pest in many crops worldwide.  \n\nIts wingspan is about 28 mm. Hindwings with veins 3 and 4 from arise from the cell. Antennae of male ciliated and simple in female. Body ochreous. Forewings with a red-brown suffusion along median nervure and veins 2 to 5. A sub-marginal dark line present. Cilia paler. Hindwings are whitish.\n\nLarva smooth and shiny and lack obvious hairs or markings. Color variable but usually creamy-white with a distinctive pink suffusion. The head and prothoracic shield are brown. The dorsal part of the last abdominal segment bearing the anus is yellowish-brown. Mature larvae are between 30–40 mm long, pink with buff and pink dorsal markings and a brown head. Pupae are up to about 18 mm long, brown to yellowish-brown with a wrinkled frontal region of the head and cremaster with four large and two small spines.",
+        "image": "pink_stem_borer.jpg"
+    }
+]
