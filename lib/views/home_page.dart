@@ -60,16 +60,27 @@ class HomePage extends StatelessWidget {
           ),
         );
       } else {
-        await _insert("$uuid.png", conditionResult[0]["label"],
-            conditionResult[0]["index"]);
-        Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => ResultPage(
-                imagePath: image.path,
-                resultIndex: conditionResult[0]["index"]),
-          ),
-        );
+        if (conditionResult[0]["confidence"] < .80) {
+          await _insert("$uuid.png", "No Result", 4);
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) =>
+                  ResultPage(imagePath: image.path, resultIndex: 4),
+            ),
+          );
+        } else {
+          await _insert("$uuid.png", conditionResult[0]["label"],
+              conditionResult[0]["index"]);
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => ResultPage(
+                  imagePath: image.path,
+                  resultIndex: conditionResult[0]["index"]),
+            ),
+          );
+        }
       }
     }
   }
@@ -94,16 +105,27 @@ class HomePage extends StatelessWidget {
           ),
         );
       } else {
-        await _insert(
-            "$uuid.png", conditionResult[0]["label"], conditionResult[0]["index"]);
-        Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => ResultPage(
-                imagePath: image.path,
-                resultIndex: conditionResult[0]["index"]),
-          ),
-        );
+    if (conditionResult[0]["confidence"] < .80) {
+          await _insert("$uuid.png", "No Result", 4);
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) =>
+                  ResultPage(imagePath: image.path, resultIndex: 4),
+            ),
+          );
+        } else {
+          await _insert("$uuid.png", conditionResult[0]["label"],
+              conditionResult[0]["index"]);
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => ResultPage(
+                  imagePath: image.path,
+                  resultIndex: conditionResult[0]["index"]),
+            ),
+          );
+        }
       }
     }
   }
