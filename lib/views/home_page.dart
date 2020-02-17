@@ -49,7 +49,11 @@ class HomePage extends StatelessWidget {
       await image.copy('${appDocDir.path}/$uuid.png');
       List<dynamic> conditionResult = await _classify(image.path);
       if (conditionResult.isEmpty) {
-        await _insert("$uuid.png", "No Result", 4);
+        await _insert(
+          "$uuid.png",
+          "No Result",
+          4,
+        );
         Navigator.push(
           context,
           MaterialPageRoute(
@@ -65,8 +69,10 @@ class HomePage extends StatelessWidget {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) =>
-                  ResultPage(imagePath: image.path, resultIndex: 4),
+              builder: (context) => ResultPage(
+                imagePath: image.path,
+                resultIndex: 4,
+              ),
             ),
           );
         } else {
@@ -76,8 +82,9 @@ class HomePage extends StatelessWidget {
             context,
             MaterialPageRoute(
               builder: (context) => ResultPage(
-                  imagePath: image.path,
-                  resultIndex: conditionResult[0]["index"]),
+                imagePath: image.path,
+                resultIndex: conditionResult[0]["index"],
+              ),
             ),
           );
         }
@@ -94,7 +101,11 @@ class HomePage extends StatelessWidget {
       await image.copy('${appDocDir.path}/$uuid.png');
       List<dynamic> conditionResult = await _classify(image.path);
       if (conditionResult.isEmpty) {
-        await _insert("$uuid.png", "No Result", 4);
+        await _insert(
+          "$uuid.png",
+          "No Result",
+          4,
+        );
         Navigator.push(
           context,
           MaterialPageRoute(
@@ -105,13 +116,15 @@ class HomePage extends StatelessWidget {
           ),
         );
       } else {
-    if (conditionResult[0]["confidence"] < .80) {
+        if (conditionResult[0]["confidence"] < .80) {
           await _insert("$uuid.png", "No Result", 4);
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) =>
-                  ResultPage(imagePath: image.path, resultIndex: 4),
+              builder: (context) => ResultPage(
+                imagePath: image.path,
+                resultIndex: 4,
+              ),
             ),
           );
         } else {
@@ -121,8 +134,9 @@ class HomePage extends StatelessWidget {
             context,
             MaterialPageRoute(
               builder: (context) => ResultPage(
-                  imagePath: image.path,
-                  resultIndex: conditionResult[0]["index"]),
+                imagePath: image.path,
+                resultIndex: conditionResult[0]["index"],
+              ),
             ),
           );
         }

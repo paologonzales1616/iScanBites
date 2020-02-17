@@ -11,6 +11,6 @@ const List<String> COMPARE_NAME = [
 const List<String> ASSET_LIST = [
   'assets/data/early_vegetative_pests.json',
   'assets/data/general_defoliators.json',
-  'assets/data/stem_borers.json',
   'assets/data/plant_sucking_pest.json',
+  'assets/data/stem_borers.json',
 ];
